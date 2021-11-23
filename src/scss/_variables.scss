@@ -1,35 +1,22 @@
 // color variables definition
 $black: #222;
-$black2: #1f2d3d;
-$aco: #273444;
-$prata: #3c4858;
-$gray: #8a9399;
-$fumaca: #e0e6ed;
-$fumaca-dark: #d3dce6;
-$fumaca-extra-dark: #c0ccda;
-$neve: #f9fafc;
-$neve-dark: #eff2f7;
-$neve-extra-dark: #e5e9f2;
+$primary-extra-light: #736F82;
+$primary-light-1: #008FEF;
+$primary-light-2: #005C99;
+$primary-dark-1: #233673;
+$primary-dark-2: #1F3066;
+$secondary-light: #FFA000;
+$secondary-dark: #FC8A33;
 
 $theme-colors: (
   "black": $black,
-  "black2": $black2,
-  "aco": $aco,
-  "prata": $prata,
-  "gray": $gray,
-  "fumaca": $fumaca,
-  "fumaca-dark": $fumaca-dark,
-  "fumaca-extra-dark": $fumaca-extra-dark,
-  "neve": $neve,
-  "neve-dark": $neve-dark,
-  "neve-extra-dark": $neve-extra-dark,
+  "primary-dark-1": $primary-dark-1,
   "transparent": #fff0,
 ) !default;
 
 // spacers variable definition
 $spacer: 1rem;
 $custom-spacers: (
-  "awe-6": $spacer * 0.375,
   "awe-12": $spacer * 0.75,
   "awe-32": $spacer * 2,
   "awe-40": $spacer * 2.5,
@@ -38,16 +25,15 @@ $custom-spacers: (
   "awe-80": $spacer * 5,
   "awe-96": $spacer * 6,
   "awe-108": $spacer * 8,
-  "awe-324": $spacer * 24,
 ) !default;
 
-// font features variables definition
+//Variáveis das fontes
+$font-family-sans-serif: "Roboto", sans-serif;
 $font-sizes: (
+  12: 12px,
   14: 14px,
-  16: 16px,
   18: 18px,
-  21: 21px,
-  26: 26px,
+  32: 32px,
   44: 44px,
 );
 
