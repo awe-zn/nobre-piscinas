@@ -1,5 +1,70 @@
+@import '/node_modules/swiper/swiper-bundle.css';
 @import 'bootstrap';
+
+//fontes
 
 .ff-nunito {
   font-family: 'Nunito', sans-serif;
+}
+
+.ff-catamaran {
+  font-family: 'Catamaran', sans-serif;
+}
+
+//Main
+main {
+  background: url(/dist/img/img-main.jpg) no-repeat right top;
+  background-size: cover;
+
+  & > div {
+    width: 100%;
+    height: 100%;
+    padding: 180px 0 150px 0;  
+    background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 45.52%, #09629D 61.11%);
+  }
+}
+
+//section 1 - piscinas
+
+#piscinas {
+  padding: 142px 0 66px 0;
+  background: linear-gradient(270deg, rgba(179, 198, 255, 0.13) 19.69%, rgba(179, 198, 255, 0) 80.34%);
+
+  //slide
+  .button-prev, .button-next {
+    border-radius: 100%;
+    width: 37.5px;
+    height: 37.5px;
+    border: 1px solid $primary;
+
+    &.swiper-button-disabled {
+      filter: grayscale(80%);
+    }
+  }
+
+  .swiper-slide {    
+    img {
+      box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+      border-radius: 10px;
+    }
+    p {
+      line-height: 140%;
+    }
+  }
+}
+
+//section 2 - duvidas
+#duvidas {
+  background: linear-gradient(90deg, #2B428C 0%, #233673 100%);
+
+  & > div {
+    background: url(/dist/img/gotas.png) no-repeat;
+    background-position: -90px;
+  }
+}
+
+@media (min-width: 992px) {
+  .swiper-slide {
+    max-width: 270px;
+  }
 }

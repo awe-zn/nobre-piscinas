@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,35 +10,40 @@
   <!--Fontes-->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Catamaran:wght@400;700&family=Nunito:wght@300;400;700;900&display=swap"
+    rel="stylesheet">
 
   <!--Css-->
   <link rel="stylesheet" href="/dist/css/style.css">
 </head>
+
 <body>
-  
+
   <header class="bg-primary-dark-1">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="#">
-          <img src="/dist/img/logo.png" alt="">
+          <img src="/dist/img/logo.png" alt="logo nobre piscinas">
         </a>
 
         <!--Links do whatsapp e instagram no mobile-->
         <div class="d-inline-flex d-lg-none ms-auto px-4 gap-3 justify-content-end">
           <a href="#">
-            <img width="30" src="/dist/img/svg/whatsapp.svg" alt="">
+            <img width="25" src="/dist/img/svg/whatsapp.svg" alt="whatsapp">
           </a>
           <a href="#">
-            <img width="30" src="/dist/img/svg/instagram.svg" alt="">
+            <img width="25" src="/dist/img/svg/instagram.svg" alt="instagram">
           </a>
         </div>
 
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+          aria-label="Toggle navigation">
+          <img src="/dist/img/svg/menu.svg" alt="">
         </button>
         <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-          <ul class="navbar-nav gap-3 text-uppercase ff-nunito fz-14 fw-light align-items-center">
+          <ul class="navbar-nav gap-3 text-uppercase fz-14 fw-light align-items-center">
             <!--Links do whatsapp e instagram no desktop-->
             <li class="nav-item d-none d-lg-flex gap-1">
               <a class="nav-link" href="#">
@@ -68,8 +74,194 @@
     </nav>
   </header>
 
+  <main>
+    <div>
+      <div class="container">
+        <div class="row">
+          <div class="col-12 col-lg-8 col-xl-7 pb-awe-40">
+            <h1 class="fz-48 text-white fw-bold">
+              <span class="fw-black text-secondary-light">Experiência no DNA</span> na fabricação de piscinas de fibra
+            </h1>
+          </div>
+          <div class="col-12 col-lg-6">
+            <p class="fz-20 text-white fw-regular">
+              Uma nova marca que já nasce com 25 anos de história para contar.
+              A Nobre Piscinas possui em seu DNA a experiência de produzir piscinas de fibra de vidro.
+            </p>
+            <div class="pt-awe-40 d-grid d-md-flex gap-4">
+              <a href="#sobre"
+                class="btn btn-secondary-dark text-uppercase text-white py-awe-16 px-md-awe-18 ff-catamaran">
+                <span class="me-2">
+                  <img src="/dist/img/svg/btn-arrows.svg" alt="">
+                </span>
+                Conheça nossa história
+              </a>
+              <a href="#piscinas" class="btn btn-outline-white text-uppercase py-awe-16 px-md-awe-40 ff-catamaran">
+                Ver piscinas
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <section id="piscinas">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <h2 class="text-uppercase text-primary-light-1 fz-20 ff-catamaran">
+            Nossos modelos de piscinas
+          </h2>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5">
+          <h3 class="text-dark fz-38 fw-bold ff-catamaran">
+            Escolha o melhor formato
+            para o seu espaço
+          </h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-5 offset-lg-2">
+          <p class="text-light-gray fz-18 ff-catamaran">
+            São diversos modelos que estão disponíveis para sua necessidade. Consulte a lista de modelos de piscinas
+            abaixo e descubra qual se encaixa melhor no seu espaço.
+          </p>
+        </div>
+        <div class="col-12 d-flex justify-content-end gap-2 pb-2">
+          <button class="button-prev btn d-flex justify-content-center align-items-center">
+            <img src="/dist/img/svg/arrow-left.svg" alt="">
+          </button>
+          <button class="button-next btn d-flex justify-content-center align-items-center">
+            <img src="/dist/img/svg/arrow-right.svg" alt="">
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <div class="pt-awe-18 pb-awe-32">
+      <!-- Slider main container -->
+      <div class="swiper container">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper ">
+          <!-- Slides -->
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_princesa.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Princesa
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Compactas, possuem degraus internos, bancos e bordas rebaixadas para
+                deixar a instalação mais fácil e segura
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_condessa.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Condessa
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Compactas, possuem degraus internos, bancos e bordas rebaixadas para deixar a instalação mais fácil e
+                segura
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_imperatriz.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Imperatriz
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Amplo espaço interno sem deixar o conforto de lado. Esta linha conta com escadas internas e banco
+                lateral, que deixam o visual mais moderno.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_duquesa.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Duquesa
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Ideais para aproveitar o amplo espaço interno com conforto e a diversão. As piscinas possuem escadas de
+                canto e banco interno.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_marquesa.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Marquesa
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Para a família desfrutar de muito espaço interno e conforto com suas escadas e degraus internos.
+              </p>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img class="img-fluid w-100" src="/dist/img/linha_viscondessa.png" alt="">
+            <div class="pt-3">
+              <h4 class="fz-20 fw-bold ff-catamaran text-primary">
+                Linha Viscondessa
+              </h4>
+              <p class="fz-16 ff-catamaran text-dark">
+                Para a família desfrutar de muito espaço interno e conforto com suas escadas e degraus internos.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="d-flex justify-content-center d-lg-none w-100 px-2">
+      <a href="" class="btn border-primary text-primary text-uppercase fz-20 fw-bold ff-catamaran">
+        <img src="/dist/img/svg/pdf-icon.svg" class="me-2" alt="">
+        Baixe nosso catálogo
+      </a>
+    </div>
+  </section>
+
+  <section id="duvidas">
+    <div>
+      <div class="container py-awe-40">
+        <div class="row">
+          <div class="col-12 col-md-1">
+            <img width="60" src="/dist/img/svg/whatsapp.svg" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 row">
+            <div class="col-12 col-lg-10">
+              <h5 class="fz-28 text-white ff-catamaran">
+                Ficou com dúvida ou podemos te ajudar de outra forma?
+              </h5>
+            </div>
+            <p class="fz-18 ff-catamaran text-primary-extra-light">
+              Temos consultores preparados para te ajudar no que você precisar. Entre em contato e descubra como podemos
+              te surpreender.
+            </p>
+          </div>
+          <div class=""> parei aqui
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="sobre"></section>
+
+  <section id="orcamento"></section>
+
+  <footer></footer>
+
+
+  <script src="/node_modules/swiper/swiper-bundle.min.js"></script>
   <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   <script src="../dist/js/index.js"></script>
 
 </body>
+
 </html>
