@@ -25,6 +25,15 @@
   padding: 0 32px 0 32px;
 }
 
+//header
+.border-hover {
+  border-bottom: 1px solid transparent;
+}
+
+.border-hover:hover {
+  border-bottom: 1px solid $secondary-dark;
+}
+
 //Main
 main {
   background: url(/dist/img/img-main.jpg) no-repeat right top;
@@ -54,6 +63,14 @@ main {
 @media (min-width: 1399.98px) {
   main {
     background-size: contain;
+  }
+}
+
+@media (min-width: 1860px) {
+  main {
+    & > div {
+      background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 0%, #09629D 50%);
+    }
   }
 }
 
