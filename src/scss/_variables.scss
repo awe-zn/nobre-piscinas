@@ -21,6 +21,7 @@ $theme-colors: (
   "primary-light-1": $primary-light-1,
   "primary": $primary,
   "primary-dark-1": $primary-dark-1,
+  "primary-dark-2": $primary-dark-2,
   "secondary-light": $secondary-light,
   "secondary-dark": $secondary-dark,
   "transparent": #fff0,
@@ -39,6 +40,7 @@ $custom-spacers: (
   "awe-80": $spacer * 5,
   "awe-96": $spacer * 6,
   "awe-108": $spacer * 8,
+  "awe-148": $spacer * 9.25
 ) !default;
 
 //Variáveis das fontes
