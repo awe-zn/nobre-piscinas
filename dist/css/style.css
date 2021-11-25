@@ -7266,6 +7266,10 @@ textarea.form-control-lg {
   gap: 1.125rem !important;
 }
 
+.gap-awe-25 {
+  gap: 1.5625rem !important;
+}
+
 .gap-awe-32 {
   gap: 2rem !important;
 }
@@ -7458,6 +7462,10 @@ textarea.form-control-lg {
   margin: 1.125rem !important;
 }
 
+.m-awe-25 {
+  margin: 1.5625rem !important;
+}
+
 .m-awe-32 {
   margin: 2rem !important;
 }
@@ -7531,6 +7539,11 @@ textarea.form-control-lg {
 .mx-awe-18 {
   margin-right: 1.125rem !important;
   margin-left: 1.125rem !important;
+}
+
+.mx-awe-25 {
+  margin-right: 1.5625rem !important;
+  margin-left: 1.5625rem !important;
 }
 
 .mx-awe-32 {
@@ -7623,6 +7636,11 @@ textarea.form-control-lg {
   margin-bottom: 1.125rem !important;
 }
 
+.my-awe-25 {
+  margin-top: 1.5625rem !important;
+  margin-bottom: 1.5625rem !important;
+}
+
 .my-awe-32 {
   margin-top: 2rem !important;
   margin-bottom: 2rem !important;
@@ -7710,6 +7728,10 @@ textarea.form-control-lg {
   margin-top: 1.125rem !important;
 }
 
+.mt-awe-25 {
+  margin-top: 1.5625rem !important;
+}
+
 .mt-awe-32 {
   margin-top: 2rem !important;
 }
@@ -7780,6 +7802,10 @@ textarea.form-control-lg {
 
 .me-awe-18 {
   margin-right: 1.125rem !important;
+}
+
+.me-awe-25 {
+  margin-right: 1.5625rem !important;
 }
 
 .me-awe-32 {
@@ -7854,6 +7880,10 @@ textarea.form-control-lg {
   margin-bottom: 1.125rem !important;
 }
 
+.mb-awe-25 {
+  margin-bottom: 1.5625rem !important;
+}
+
 .mb-awe-32 {
   margin-bottom: 2rem !important;
 }
@@ -7924,6 +7954,10 @@ textarea.form-control-lg {
 
 .ms-awe-18 {
   margin-left: 1.125rem !important;
+}
+
+.ms-awe-25 {
+  margin-left: 1.5625rem !important;
 }
 
 .ms-awe-32 {
@@ -7998,6 +8032,10 @@ textarea.form-control-lg {
   padding: 1.125rem !important;
 }
 
+.p-awe-25 {
+  padding: 1.5625rem !important;
+}
+
 .p-awe-32 {
   padding: 2rem !important;
 }
@@ -8067,6 +8105,11 @@ textarea.form-control-lg {
 .px-awe-18 {
   padding-right: 1.125rem !important;
   padding-left: 1.125rem !important;
+}
+
+.px-awe-25 {
+  padding-right: 1.5625rem !important;
+  padding-left: 1.5625rem !important;
 }
 
 .px-awe-32 {
@@ -8154,6 +8197,11 @@ textarea.form-control-lg {
   padding-bottom: 1.125rem !important;
 }
 
+.py-awe-25 {
+  padding-top: 1.5625rem !important;
+  padding-bottom: 1.5625rem !important;
+}
+
 .py-awe-32 {
   padding-top: 2rem !important;
   padding-bottom: 2rem !important;
@@ -8236,6 +8284,10 @@ textarea.form-control-lg {
   padding-top: 1.125rem !important;
 }
 
+.pt-awe-25 {
+  padding-top: 1.5625rem !important;
+}
+
 .pt-awe-32 {
   padding-top: 2rem !important;
 }
@@ -8302,6 +8354,10 @@ textarea.form-control-lg {
 
 .pe-awe-18 {
   padding-right: 1.125rem !important;
+}
+
+.pe-awe-25 {
+  padding-right: 1.5625rem !important;
 }
 
 .pe-awe-32 {
@@ -8372,6 +8428,10 @@ textarea.form-control-lg {
   padding-bottom: 1.125rem !important;
 }
 
+.pb-awe-25 {
+  padding-bottom: 1.5625rem !important;
+}
+
 .pb-awe-32 {
   padding-bottom: 2rem !important;
 }
@@ -8438,6 +8498,10 @@ textarea.form-control-lg {
 
 .ps-awe-18 {
   padding-left: 1.125rem !important;
+}
+
+.ps-awe-25 {
+  padding-left: 1.5625rem !important;
 }
 
 .ps-awe-32 {
@@ -9118,6 +9182,10 @@ textarea.form-control-lg {
     gap: 1.125rem !important;
   }
 
+  .gap-sm-awe-25 {
+    gap: 1.5625rem !important;
+  }
+
   .gap-sm-awe-32 {
     gap: 2rem !important;
   }
@@ -9310,6 +9378,10 @@ textarea.form-control-lg {
     margin: 1.125rem !important;
   }
 
+  .m-sm-awe-25 {
+    margin: 1.5625rem !important;
+  }
+
   .m-sm-awe-32 {
     margin: 2rem !important;
   }
@@ -9383,6 +9455,11 @@ textarea.form-control-lg {
   .mx-sm-awe-18 {
     margin-right: 1.125rem !important;
     margin-left: 1.125rem !important;
+  }
+
+  .mx-sm-awe-25 {
+    margin-right: 1.5625rem !important;
+    margin-left: 1.5625rem !important;
   }
 
   .mx-sm-awe-32 {
@@ -9475,6 +9552,11 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .my-sm-awe-25 {
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
+  }
+
   .my-sm-awe-32 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -9562,6 +9644,10 @@ textarea.form-control-lg {
     margin-top: 1.125rem !important;
   }
 
+  .mt-sm-awe-25 {
+    margin-top: 1.5625rem !important;
+  }
+
   .mt-sm-awe-32 {
     margin-top: 2rem !important;
   }
@@ -9632,6 +9718,10 @@ textarea.form-control-lg {
 
   .me-sm-awe-18 {
     margin-right: 1.125rem !important;
+  }
+
+  .me-sm-awe-25 {
+    margin-right: 1.5625rem !important;
   }
 
   .me-sm-awe-32 {
@@ -9706,6 +9796,10 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .mb-sm-awe-25 {
+    margin-bottom: 1.5625rem !important;
+  }
+
   .mb-sm-awe-32 {
     margin-bottom: 2rem !important;
   }
@@ -9776,6 +9870,10 @@ textarea.form-control-lg {
 
   .ms-sm-awe-18 {
     margin-left: 1.125rem !important;
+  }
+
+  .ms-sm-awe-25 {
+    margin-left: 1.5625rem !important;
   }
 
   .ms-sm-awe-32 {
@@ -9850,6 +9948,10 @@ textarea.form-control-lg {
     padding: 1.125rem !important;
   }
 
+  .p-sm-awe-25 {
+    padding: 1.5625rem !important;
+  }
+
   .p-sm-awe-32 {
     padding: 2rem !important;
   }
@@ -9919,6 +10021,11 @@ textarea.form-control-lg {
   .px-sm-awe-18 {
     padding-right: 1.125rem !important;
     padding-left: 1.125rem !important;
+  }
+
+  .px-sm-awe-25 {
+    padding-right: 1.5625rem !important;
+    padding-left: 1.5625rem !important;
   }
 
   .px-sm-awe-32 {
@@ -10006,6 +10113,11 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .py-sm-awe-25 {
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
+  }
+
   .py-sm-awe-32 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -10088,6 +10200,10 @@ textarea.form-control-lg {
     padding-top: 1.125rem !important;
   }
 
+  .pt-sm-awe-25 {
+    padding-top: 1.5625rem !important;
+  }
+
   .pt-sm-awe-32 {
     padding-top: 2rem !important;
   }
@@ -10154,6 +10270,10 @@ textarea.form-control-lg {
 
   .pe-sm-awe-18 {
     padding-right: 1.125rem !important;
+  }
+
+  .pe-sm-awe-25 {
+    padding-right: 1.5625rem !important;
   }
 
   .pe-sm-awe-32 {
@@ -10224,6 +10344,10 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .pb-sm-awe-25 {
+    padding-bottom: 1.5625rem !important;
+  }
+
   .pb-sm-awe-32 {
     padding-bottom: 2rem !important;
   }
@@ -10290,6 +10414,10 @@ textarea.form-control-lg {
 
   .ps-sm-awe-18 {
     padding-left: 1.125rem !important;
+  }
+
+  .ps-sm-awe-25 {
+    padding-left: 1.5625rem !important;
   }
 
   .ps-sm-awe-32 {
@@ -10529,6 +10657,10 @@ textarea.form-control-lg {
     gap: 1.125rem !important;
   }
 
+  .gap-md-awe-25 {
+    gap: 1.5625rem !important;
+  }
+
   .gap-md-awe-32 {
     gap: 2rem !important;
   }
@@ -10721,6 +10853,10 @@ textarea.form-control-lg {
     margin: 1.125rem !important;
   }
 
+  .m-md-awe-25 {
+    margin: 1.5625rem !important;
+  }
+
   .m-md-awe-32 {
     margin: 2rem !important;
   }
@@ -10794,6 +10930,11 @@ textarea.form-control-lg {
   .mx-md-awe-18 {
     margin-right: 1.125rem !important;
     margin-left: 1.125rem !important;
+  }
+
+  .mx-md-awe-25 {
+    margin-right: 1.5625rem !important;
+    margin-left: 1.5625rem !important;
   }
 
   .mx-md-awe-32 {
@@ -10886,6 +11027,11 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .my-md-awe-25 {
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
+  }
+
   .my-md-awe-32 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -10973,6 +11119,10 @@ textarea.form-control-lg {
     margin-top: 1.125rem !important;
   }
 
+  .mt-md-awe-25 {
+    margin-top: 1.5625rem !important;
+  }
+
   .mt-md-awe-32 {
     margin-top: 2rem !important;
   }
@@ -11043,6 +11193,10 @@ textarea.form-control-lg {
 
   .me-md-awe-18 {
     margin-right: 1.125rem !important;
+  }
+
+  .me-md-awe-25 {
+    margin-right: 1.5625rem !important;
   }
 
   .me-md-awe-32 {
@@ -11117,6 +11271,10 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .mb-md-awe-25 {
+    margin-bottom: 1.5625rem !important;
+  }
+
   .mb-md-awe-32 {
     margin-bottom: 2rem !important;
   }
@@ -11187,6 +11345,10 @@ textarea.form-control-lg {
 
   .ms-md-awe-18 {
     margin-left: 1.125rem !important;
+  }
+
+  .ms-md-awe-25 {
+    margin-left: 1.5625rem !important;
   }
 
   .ms-md-awe-32 {
@@ -11261,6 +11423,10 @@ textarea.form-control-lg {
     padding: 1.125rem !important;
   }
 
+  .p-md-awe-25 {
+    padding: 1.5625rem !important;
+  }
+
   .p-md-awe-32 {
     padding: 2rem !important;
   }
@@ -11330,6 +11496,11 @@ textarea.form-control-lg {
   .px-md-awe-18 {
     padding-right: 1.125rem !important;
     padding-left: 1.125rem !important;
+  }
+
+  .px-md-awe-25 {
+    padding-right: 1.5625rem !important;
+    padding-left: 1.5625rem !important;
   }
 
   .px-md-awe-32 {
@@ -11417,6 +11588,11 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .py-md-awe-25 {
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
+  }
+
   .py-md-awe-32 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -11499,6 +11675,10 @@ textarea.form-control-lg {
     padding-top: 1.125rem !important;
   }
 
+  .pt-md-awe-25 {
+    padding-top: 1.5625rem !important;
+  }
+
   .pt-md-awe-32 {
     padding-top: 2rem !important;
   }
@@ -11565,6 +11745,10 @@ textarea.form-control-lg {
 
   .pe-md-awe-18 {
     padding-right: 1.125rem !important;
+  }
+
+  .pe-md-awe-25 {
+    padding-right: 1.5625rem !important;
   }
 
   .pe-md-awe-32 {
@@ -11635,6 +11819,10 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .pb-md-awe-25 {
+    padding-bottom: 1.5625rem !important;
+  }
+
   .pb-md-awe-32 {
     padding-bottom: 2rem !important;
   }
@@ -11701,6 +11889,10 @@ textarea.form-control-lg {
 
   .ps-md-awe-18 {
     padding-left: 1.125rem !important;
+  }
+
+  .ps-md-awe-25 {
+    padding-left: 1.5625rem !important;
   }
 
   .ps-md-awe-32 {
@@ -11940,6 +12132,10 @@ textarea.form-control-lg {
     gap: 1.125rem !important;
   }
 
+  .gap-lg-awe-25 {
+    gap: 1.5625rem !important;
+  }
+
   .gap-lg-awe-32 {
     gap: 2rem !important;
   }
@@ -12132,6 +12328,10 @@ textarea.form-control-lg {
     margin: 1.125rem !important;
   }
 
+  .m-lg-awe-25 {
+    margin: 1.5625rem !important;
+  }
+
   .m-lg-awe-32 {
     margin: 2rem !important;
   }
@@ -12205,6 +12405,11 @@ textarea.form-control-lg {
   .mx-lg-awe-18 {
     margin-right: 1.125rem !important;
     margin-left: 1.125rem !important;
+  }
+
+  .mx-lg-awe-25 {
+    margin-right: 1.5625rem !important;
+    margin-left: 1.5625rem !important;
   }
 
   .mx-lg-awe-32 {
@@ -12297,6 +12502,11 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .my-lg-awe-25 {
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
+  }
+
   .my-lg-awe-32 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -12384,6 +12594,10 @@ textarea.form-control-lg {
     margin-top: 1.125rem !important;
   }
 
+  .mt-lg-awe-25 {
+    margin-top: 1.5625rem !important;
+  }
+
   .mt-lg-awe-32 {
     margin-top: 2rem !important;
   }
@@ -12454,6 +12668,10 @@ textarea.form-control-lg {
 
   .me-lg-awe-18 {
     margin-right: 1.125rem !important;
+  }
+
+  .me-lg-awe-25 {
+    margin-right: 1.5625rem !important;
   }
 
   .me-lg-awe-32 {
@@ -12528,6 +12746,10 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .mb-lg-awe-25 {
+    margin-bottom: 1.5625rem !important;
+  }
+
   .mb-lg-awe-32 {
     margin-bottom: 2rem !important;
   }
@@ -12598,6 +12820,10 @@ textarea.form-control-lg {
 
   .ms-lg-awe-18 {
     margin-left: 1.125rem !important;
+  }
+
+  .ms-lg-awe-25 {
+    margin-left: 1.5625rem !important;
   }
 
   .ms-lg-awe-32 {
@@ -12672,6 +12898,10 @@ textarea.form-control-lg {
     padding: 1.125rem !important;
   }
 
+  .p-lg-awe-25 {
+    padding: 1.5625rem !important;
+  }
+
   .p-lg-awe-32 {
     padding: 2rem !important;
   }
@@ -12741,6 +12971,11 @@ textarea.form-control-lg {
   .px-lg-awe-18 {
     padding-right: 1.125rem !important;
     padding-left: 1.125rem !important;
+  }
+
+  .px-lg-awe-25 {
+    padding-right: 1.5625rem !important;
+    padding-left: 1.5625rem !important;
   }
 
   .px-lg-awe-32 {
@@ -12828,6 +13063,11 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .py-lg-awe-25 {
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
+  }
+
   .py-lg-awe-32 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -12910,6 +13150,10 @@ textarea.form-control-lg {
     padding-top: 1.125rem !important;
   }
 
+  .pt-lg-awe-25 {
+    padding-top: 1.5625rem !important;
+  }
+
   .pt-lg-awe-32 {
     padding-top: 2rem !important;
   }
@@ -12976,6 +13220,10 @@ textarea.form-control-lg {
 
   .pe-lg-awe-18 {
     padding-right: 1.125rem !important;
+  }
+
+  .pe-lg-awe-25 {
+    padding-right: 1.5625rem !important;
   }
 
   .pe-lg-awe-32 {
@@ -13046,6 +13294,10 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .pb-lg-awe-25 {
+    padding-bottom: 1.5625rem !important;
+  }
+
   .pb-lg-awe-32 {
     padding-bottom: 2rem !important;
   }
@@ -13112,6 +13364,10 @@ textarea.form-control-lg {
 
   .ps-lg-awe-18 {
     padding-left: 1.125rem !important;
+  }
+
+  .ps-lg-awe-25 {
+    padding-left: 1.5625rem !important;
   }
 
   .ps-lg-awe-32 {
@@ -13351,6 +13607,10 @@ textarea.form-control-lg {
     gap: 1.125rem !important;
   }
 
+  .gap-xl-awe-25 {
+    gap: 1.5625rem !important;
+  }
+
   .gap-xl-awe-32 {
     gap: 2rem !important;
   }
@@ -13543,6 +13803,10 @@ textarea.form-control-lg {
     margin: 1.125rem !important;
   }
 
+  .m-xl-awe-25 {
+    margin: 1.5625rem !important;
+  }
+
   .m-xl-awe-32 {
     margin: 2rem !important;
   }
@@ -13616,6 +13880,11 @@ textarea.form-control-lg {
   .mx-xl-awe-18 {
     margin-right: 1.125rem !important;
     margin-left: 1.125rem !important;
+  }
+
+  .mx-xl-awe-25 {
+    margin-right: 1.5625rem !important;
+    margin-left: 1.5625rem !important;
   }
 
   .mx-xl-awe-32 {
@@ -13708,6 +13977,11 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .my-xl-awe-25 {
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
+  }
+
   .my-xl-awe-32 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -13795,6 +14069,10 @@ textarea.form-control-lg {
     margin-top: 1.125rem !important;
   }
 
+  .mt-xl-awe-25 {
+    margin-top: 1.5625rem !important;
+  }
+
   .mt-xl-awe-32 {
     margin-top: 2rem !important;
   }
@@ -13865,6 +14143,10 @@ textarea.form-control-lg {
 
   .me-xl-awe-18 {
     margin-right: 1.125rem !important;
+  }
+
+  .me-xl-awe-25 {
+    margin-right: 1.5625rem !important;
   }
 
   .me-xl-awe-32 {
@@ -13939,6 +14221,10 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .mb-xl-awe-25 {
+    margin-bottom: 1.5625rem !important;
+  }
+
   .mb-xl-awe-32 {
     margin-bottom: 2rem !important;
   }
@@ -14009,6 +14295,10 @@ textarea.form-control-lg {
 
   .ms-xl-awe-18 {
     margin-left: 1.125rem !important;
+  }
+
+  .ms-xl-awe-25 {
+    margin-left: 1.5625rem !important;
   }
 
   .ms-xl-awe-32 {
@@ -14083,6 +14373,10 @@ textarea.form-control-lg {
     padding: 1.125rem !important;
   }
 
+  .p-xl-awe-25 {
+    padding: 1.5625rem !important;
+  }
+
   .p-xl-awe-32 {
     padding: 2rem !important;
   }
@@ -14152,6 +14446,11 @@ textarea.form-control-lg {
   .px-xl-awe-18 {
     padding-right: 1.125rem !important;
     padding-left: 1.125rem !important;
+  }
+
+  .px-xl-awe-25 {
+    padding-right: 1.5625rem !important;
+    padding-left: 1.5625rem !important;
   }
 
   .px-xl-awe-32 {
@@ -14239,6 +14538,11 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .py-xl-awe-25 {
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
+  }
+
   .py-xl-awe-32 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -14321,6 +14625,10 @@ textarea.form-control-lg {
     padding-top: 1.125rem !important;
   }
 
+  .pt-xl-awe-25 {
+    padding-top: 1.5625rem !important;
+  }
+
   .pt-xl-awe-32 {
     padding-top: 2rem !important;
   }
@@ -14387,6 +14695,10 @@ textarea.form-control-lg {
 
   .pe-xl-awe-18 {
     padding-right: 1.125rem !important;
+  }
+
+  .pe-xl-awe-25 {
+    padding-right: 1.5625rem !important;
   }
 
   .pe-xl-awe-32 {
@@ -14457,6 +14769,10 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .pb-xl-awe-25 {
+    padding-bottom: 1.5625rem !important;
+  }
+
   .pb-xl-awe-32 {
     padding-bottom: 2rem !important;
   }
@@ -14523,6 +14839,10 @@ textarea.form-control-lg {
 
   .ps-xl-awe-18 {
     padding-left: 1.125rem !important;
+  }
+
+  .ps-xl-awe-25 {
+    padding-left: 1.5625rem !important;
   }
 
   .ps-xl-awe-32 {
@@ -14762,6 +15082,10 @@ textarea.form-control-lg {
     gap: 1.125rem !important;
   }
 
+  .gap-xxl-awe-25 {
+    gap: 1.5625rem !important;
+  }
+
   .gap-xxl-awe-32 {
     gap: 2rem !important;
   }
@@ -14954,6 +15278,10 @@ textarea.form-control-lg {
     margin: 1.125rem !important;
   }
 
+  .m-xxl-awe-25 {
+    margin: 1.5625rem !important;
+  }
+
   .m-xxl-awe-32 {
     margin: 2rem !important;
   }
@@ -15027,6 +15355,11 @@ textarea.form-control-lg {
   .mx-xxl-awe-18 {
     margin-right: 1.125rem !important;
     margin-left: 1.125rem !important;
+  }
+
+  .mx-xxl-awe-25 {
+    margin-right: 1.5625rem !important;
+    margin-left: 1.5625rem !important;
   }
 
   .mx-xxl-awe-32 {
@@ -15119,6 +15452,11 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .my-xxl-awe-25 {
+    margin-top: 1.5625rem !important;
+    margin-bottom: 1.5625rem !important;
+  }
+
   .my-xxl-awe-32 {
     margin-top: 2rem !important;
     margin-bottom: 2rem !important;
@@ -15206,6 +15544,10 @@ textarea.form-control-lg {
     margin-top: 1.125rem !important;
   }
 
+  .mt-xxl-awe-25 {
+    margin-top: 1.5625rem !important;
+  }
+
   .mt-xxl-awe-32 {
     margin-top: 2rem !important;
   }
@@ -15276,6 +15618,10 @@ textarea.form-control-lg {
 
   .me-xxl-awe-18 {
     margin-right: 1.125rem !important;
+  }
+
+  .me-xxl-awe-25 {
+    margin-right: 1.5625rem !important;
   }
 
   .me-xxl-awe-32 {
@@ -15350,6 +15696,10 @@ textarea.form-control-lg {
     margin-bottom: 1.125rem !important;
   }
 
+  .mb-xxl-awe-25 {
+    margin-bottom: 1.5625rem !important;
+  }
+
   .mb-xxl-awe-32 {
     margin-bottom: 2rem !important;
   }
@@ -15420,6 +15770,10 @@ textarea.form-control-lg {
 
   .ms-xxl-awe-18 {
     margin-left: 1.125rem !important;
+  }
+
+  .ms-xxl-awe-25 {
+    margin-left: 1.5625rem !important;
   }
 
   .ms-xxl-awe-32 {
@@ -15494,6 +15848,10 @@ textarea.form-control-lg {
     padding: 1.125rem !important;
   }
 
+  .p-xxl-awe-25 {
+    padding: 1.5625rem !important;
+  }
+
   .p-xxl-awe-32 {
     padding: 2rem !important;
   }
@@ -15563,6 +15921,11 @@ textarea.form-control-lg {
   .px-xxl-awe-18 {
     padding-right: 1.125rem !important;
     padding-left: 1.125rem !important;
+  }
+
+  .px-xxl-awe-25 {
+    padding-right: 1.5625rem !important;
+    padding-left: 1.5625rem !important;
   }
 
   .px-xxl-awe-32 {
@@ -15650,6 +16013,11 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .py-xxl-awe-25 {
+    padding-top: 1.5625rem !important;
+    padding-bottom: 1.5625rem !important;
+  }
+
   .py-xxl-awe-32 {
     padding-top: 2rem !important;
     padding-bottom: 2rem !important;
@@ -15732,6 +16100,10 @@ textarea.form-control-lg {
     padding-top: 1.125rem !important;
   }
 
+  .pt-xxl-awe-25 {
+    padding-top: 1.5625rem !important;
+  }
+
   .pt-xxl-awe-32 {
     padding-top: 2rem !important;
   }
@@ -15798,6 +16170,10 @@ textarea.form-control-lg {
 
   .pe-xxl-awe-18 {
     padding-right: 1.125rem !important;
+  }
+
+  .pe-xxl-awe-25 {
+    padding-right: 1.5625rem !important;
   }
 
   .pe-xxl-awe-32 {
@@ -15868,6 +16244,10 @@ textarea.form-control-lg {
     padding-bottom: 1.125rem !important;
   }
 
+  .pb-xxl-awe-25 {
+    padding-bottom: 1.5625rem !important;
+  }
+
   .pb-xxl-awe-32 {
     padding-bottom: 2rem !important;
   }
@@ -15934,6 +16314,10 @@ textarea.form-control-lg {
 
   .ps-xxl-awe-18 {
     padding-left: 1.125rem !important;
+  }
+
+  .ps-xxl-awe-25 {
+    padding-left: 1.5625rem !important;
   }
 
   .ps-xxl-awe-32 {
@@ -16104,6 +16488,22 @@ main > div {
   background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 45.52%, #09629D 61.11%);
 }
 
+@media (max-width: 991.98px) {
+  main {
+    background-size: cover;
+  }
+  main > div {
+    width: 100%;
+    height: 100%;
+    padding: 95px 0 51px 0;
+    background: linear-gradient(180deg, rgba(33, 143, 217, 0) 0%, #135480 62.81%);
+  }
+}
+@media (min-width: 1399.98px) {
+  main {
+    background-size: contain;
+  }
+}
 #piscinas {
   background: linear-gradient(270deg, rgba(179, 198, 255, 0.13) 19.69%, rgba(179, 198, 255, 0) 80.34%);
 }
@@ -16124,17 +16524,32 @@ main > div {
   line-height: 140%;
 }
 
+@media (min-width: 992px) {
+  #piscinas .swiper-slide {
+    max-width: 270px;
+  }
+}
 #duvidas {
   background: linear-gradient(90deg, #2B428C 0%, #233673 100%);
 }
-#duvidas > div {
+#duvidas .container {
+  position: relative;
+}
+#duvidas .container::before {
+  content: "";
+  display: block;
+  height: 257px;
+  width: 350px;
+  position: absolute;
+  top: 0;
+  left: -270px;
   background: url(/dist/img/gotas.png) no-repeat;
-  background-position: -90px;
+  background-size: contain;
 }
 
-@media (min-width: 992px) {
-  .swiper-slide {
-    max-width: 270px;
+@media (max-width: 991.98px) {
+  #duvidas .container::before {
+    display: none;
   }
 }
 #sobre img {
@@ -16145,6 +16560,41 @@ main > div {
 }
 #sobre a:not(a:hover) {
   color: #3655b3;
+}
+
+#orcamento {
+  background: rgba(179, 198, 255, 0.1);
+  box-shadow: 0px -20px 25px -25px rgba(0, 0, 0, 0.2);
+}
+#orcamento form {
+  box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+  border-radius: 10px;
+}
+#orcamento form label {
+  color: #b2c6ff;
+  font-size: 1rem;
+}
+#orcamento form input {
+  background: #4E619D;
+  border-radius: 5px;
+  opacity: 1;
+  font-size: 1rem;
+  padding: 16px;
+  height: 50px;
+  color: #fff;
+  border: 0;
+}
+#orcamento form input::placeholder {
+  color: #B8C2CC;
+}
+
+@media (max-width: 575.98px) {
+  #orcamento .col-md-10 {
+    padding: 0;
+  }
+  #orcamento form {
+    border-radius: 0;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

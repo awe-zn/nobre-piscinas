@@ -1,29 +1,29 @@
 // color variables definition
-$black: #222;
-$white: #fff;
-$dark: #343a40;
-$light-gray: #736f82;
+$black:               #222;
+$white:               #fff;
+$dark:                #343a40;
+$light-gray:          #736f82;
 $primary-extra-light: #b2c6ff;
-$primary-light-1: #008fef;
-$primary-light-2: #005c99;
-$primary: #3655b3;
-$primary-dark-1: #233673;
-$primary-dark-2: #1f3066;
-$secondary-light: #ffa000;
-$secondary-dark: #fc8a33;
+$primary-light-1:     #008fef;
+$primary-light-2:     #005c99;
+$primary:             #3655b3;
+$primary-dark-1:      #233673;
+$primary-dark-2:      #1f3066;
+$secondary-light:     #ffa000;
+$secondary-dark:      #fc8a33;
 
 $theme-colors: (
-  "black": $black,
-  "white": $white,
-  "dark": $dark,
-  "light": $light-gray,
-  "primary-extra-light": $primary-extra-light,
-  "primary-light-1": $primary-light-1,
-  "primary": $primary,
-  "primary-dark-1": $primary-dark-1,
-  "primary-dark-2": $primary-dark-2,
-  "secondary-light": $secondary-light,
-  "secondary-dark": $secondary-dark,
+  "black":                $black,
+  "white":                $white,
+  "dark":                 $dark,
+  "light":                $light-gray,
+  "primary-extra-light":  $primary-extra-light,
+  "primary-light-1":      $primary-light-1,
+  "primary":              $primary,
+  "primary-dark-1":       $primary-dark-1,
+  "primary-dark-2":       $primary-dark-2,
+  "secondary-light":      $secondary-light,
+  "secondary-dark":       $secondary-dark,
   "transparent": #fff0,
 ) !default;
 
@@ -33,6 +33,7 @@ $custom-spacers: (
   "awe-12": $spacer * 0.75,
   "awe-16": $spacer,
   "awe-18": $spacer * 1.125,
+  "awe-25": $spacer * 1.5625,
   "awe-32": $spacer * 2,
   "awe-40": $spacer * 2.5,
   "awe-56": $spacer * 3.5,
@@ -57,16 +58,16 @@ $font-sizes: (
   48: 48px,
 );
 
-$font-weight-thin: 100;
+$font-weight-thin:        100;
 $font-weight-extra-light: 200;
-$font-weight-light: 300;
-$font-weight-regular: 400;
-$font-weight-medium: 500;
-$font-weight-semi-bold: 600;
-$font-weight-bold: 700;
-$font-weight-extra-bold: 800;
-$font-weight-black: 900;
+$font-weight-light:       300;
+$font-weight-regular:     400;
+$font-weight-medium:      500;
+$font-weight-semi-bold:   600;
+$font-weight-bold:        700;
+$font-weight-extra-bold:  800;
+$font-weight-black:       900;
 
 //buttons
-$btn-box-shadow: 0;
+$btn-box-shadow:  0;
 $btn-focus-width: 0;
