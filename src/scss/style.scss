@@ -11,10 +11,18 @@
   font-family: 'Catamaran', sans-serif;
 }
 
+//auxiliares 
+
+@media (max-width: 373px) {
+  .d-xsm-none {
+    display: none !important;
+  }
+}
+
 //container
 
 .container {
-  padding: 0 48px 0 48px;
+  padding: 0 32px 0 32px;
 }
 
 //Main
