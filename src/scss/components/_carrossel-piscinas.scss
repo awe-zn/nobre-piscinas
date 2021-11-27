@@ -1,0 +1,32 @@
+#piscinas {
+  .button-prev, .button-next {
+    border-radius: 100%;
+    width: 37.5px;
+    height: 37.5px;
+    border: 1px solid $primary;
+  
+    &.swiper-button-disabled {
+      filter: grayscale(80%);
+    }
+  }
+  
+  .swiper-slide {    
+    img {
+      box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
+      border-radius: 10px;
+    }
+    p {
+      line-height: 140%;
+    }
+  }
+}
+
+@media (min-width: 992px) {
+  
+  #piscinas {
+    .swiper-slide {
+      max-width: 270px;
+    }
+  }
+
+}
