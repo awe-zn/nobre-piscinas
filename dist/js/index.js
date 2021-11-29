@@ -56,13 +56,10 @@ function cepMask(i){
 
 //manipulação das etapas do form
 
-const steps = document.querySelectorAll(".step");
-const contentStep1 = document.querySelector("#content-step-1");
-const contentStep2 = document.querySelector("#content-step-2");
-const contentStep3 = document.querySelector("#content-step-3");
-
-
 function nextStep(validacao) {
+  const steps = document.querySelectorAll(".step");
+  const contentStep1 = document.querySelector("#content-step-1");
+  const contentStep2 = document.querySelector("#content-step-2");
   if(validacao) {
     contentStep1.classList.add('d-none');
     contentStep2.classList.remove('d-none');
@@ -73,19 +70,12 @@ function nextStep(validacao) {
 }
 
 function prevStep() {
+  const steps = document.querySelectorAll(".step");
+  const contentStep1 = document.querySelector("#content-step-1");
+  const contentStep2 = document.querySelector("#content-step-2");
   contentStep1.classList.remove('d-none');
   contentStep2.classList.add('d-none');
   steps[0].classList.remove('step-finish');
   steps[0].classList.add('active')
   steps[1].classList.remove('active')
-}
-
-function finalStep(validacao) {
-  if(validacao) {
-    contentStep2.classList.add('d-none');
-    contentStep3.classList.remove('d-none');
-    steps[1].classList.add('step-finish');
-    steps[1].classList.remove('active')
-    steps[2].classList.add('active')
-  }
 }
