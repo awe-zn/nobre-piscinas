@@ -1,0 +1,9 @@
+#main-home {
+    background: url(/dist/img/img-main.jpg) no-repeat right top;
+    background-size: cover;
+  }
+#orcamento form p label {
+    color: #b2c6ff !important;
+    font-size: 1rem !important;
+    width: 100% !important;
+}

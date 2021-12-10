@@ -1,6 +1,8 @@
 /*
 Theme Name: SITE-NP
 Author: Franklin Felipe
+version: 1.2
+Stylesheet: Main Stylesheet
 Author URI: https://www.linkedin.com/in/franklin-felipe-b06036151/
 Description: Tema desenvolvido pela AWE
 */
@@ -16584,8 +16586,9 @@ textarea.form-control-lg {
 #orcamento form label {
   color: #b2c6ff;
   font-size: 1rem;
+  width: 100%;
 }
-#orcamento form input {
+#orcamento form input:not(#orcamento form input[type="submit"]) {
   background: #4E619D;
   border-radius: 5px;
   font-size: 1rem;
@@ -16633,7 +16636,7 @@ textarea.form-control-lg {
   box-sizing: border-box;
   box-shadow: 10px 25px 25px -25px rgba(80, 64, 128, 0.5);
 }
-#main-garantia form input {
+#main-garantia form input::not(#main-garantia form input[type="submit"]) {
   background: #FFFFFF;
   border: 1px solid #BDBDBD;
   border-radius: 5px;
