@@ -16719,15 +16719,24 @@ textarea.form-control-lg {
   border-bottom: 1px solid #fc8a33;
 }
 
-#main-home {
-  background: url(/dist/img/img-main.jpg) no-repeat right top;
-  background-size: cover;
+#main-home .swiper-main .swiper-main-next,
+#main-home .swiper-main .swiper-main-prev {
+  display: block;
+  width: 64px;
+  height: 64px;
+  background: #ffffff80;
+  border-radius: 50%;
+  background-image: url(/dist/img/svg/next-prev-arrow.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
-#main-home > div {
-  width: 100%;
-  height: 100%;
-  padding: 180px 0 150px 0;
-  background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 45.52%, #09629D 61.11%);
+#main-home .swiper-main .swiper-main-next.swiper-button-disabled,
+#main-home .swiper-main .swiper-main-prev.swiper-button-disabled {
+  filter: grayscale(0.8);
+}
+#main-home .swiper-main .swiper-main-prev {
+  transform: rotate(180deg);
+  right: 70px;
 }
 
 @media (max-width: 991.98px) {
