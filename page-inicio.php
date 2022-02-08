@@ -129,7 +129,7 @@
 
     <div class="container">
       <div class="d-flex justify-content-center justify-content-lg-start w-100 px-2">
-        <a href="<?php echo get_field('catalogo');?>" class="btn border-primary text-primary text-uppercase fz-14 fw-bold ff-catamaran">
+        <a href="<?php echo get_field('catalogo_pdf');?>" target="blank_" class="btn border-primary text-primary text-uppercase fz-14 fw-bold ff-catamaran">
           <img src="<?php echo get_template_directory_uri();?>/dist/img/svg/pdf-icon.svg" class="me-2" alt="">
           Baixe nosso catálogo
         </a>
