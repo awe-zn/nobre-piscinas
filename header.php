@@ -24,7 +24,7 @@
 
 <body>
 
-  <header class="bg-primary-dark-1">
+  <header class="bg-primary-dark-1 fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="<?php echo home_url('/');?>">

@@ -3,39 +3,70 @@
 ?>
 <?php get_header()?>
 <style>
-  #main-home {
-  background: url(<?php echo get_template_directory_uri();?>/dist/img/img-main.jpg) no-repeat right top;
-  background-size: cover;
-}
+  .swiper-main-next,
+  .swiper-main-prev {
+    display: block;
+    cursor: pointer;
+    width: 64px;
+    height: 64px;
+    background: #ffffff80;
+    border-radius: 50%;
+    background-image: url('<?php echo get_template_directory_uri(); ?>/dist/img/svg/next-prev-arrow.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .swiper-main-next.swiper-button-disabled,
+  .swiper-main-prev.swiper-button-disabled {
+    filter: grayscale(0.8);
+  }
+
+  .swiper-main-prev {
+    transform: rotate(180deg);
+    right: 70px;
+  }
 </style>
-<main id="main-home">
-    <div>
-      <div class="container">
-        <div class="row justify-content-center justify-content-lg-start">
-          <div class="col-12 col-lg-8 col-xl-7 pb-awe-40">
-            <h1 class="fz-48 text-white fw-bold">
-              <span class="fw-black text-secondary-light">Experiência no DNA</span> na fabricação de piscinas de fibra
-            </h1>
-          </div>
-          <div class="col-12 col-lg-8">
-            <p class="fz-20 text-white fw-regular">
-              Uma nova marca que já nasce com 25 anos de história para contar.
-              A Nobre Piscinas possui em seu DNA a experiência de produzir piscinas de fibra de vidro.
-            </p>
-          </div>
-          <div class="col-12 col-sm-10 col-6 d-flex justify-content-center justify-content-lg-start gap-4 pt-awe-56 pt-lg-awe-64 flex-wrap">
-            <a href="#sobre"
-              class="btn btn-secondary-dark text-uppercase text-white ff-catamaran">
-              <span class="me-2">
-                <img src="<?php echo get_template_directory_uri();?>/dist/img/svg/btn-arrows.svg" alt="">
-              </span>
-              Conheça nossa história
-            </a>
-            <a href="#piscinas" class="btn btn-outline-white text-uppercase ff-catamaran">
-              Ver piscinas
-            </a>
+
+  <main id="main-home" class="mt-awe-80">
+    <div class="swiper-main p-0 position-relative overflow-hidden">
+      <div class="swiper-wrapper">
+      <?php $slides = get_field('slides_main'); 
+        if(isset($slides)){ foreach ($slides as $slide) { ?>
+
+        <div class="swiper-slide" style="background: url(<?php echo $slide['imagem-background']; ?>) no-repeat; background-size: cover;">
+          <div style="background: linear-gradient(270deg, rgba(33, 143, 217, 0.1) 0%, #09629D 100%); padding: 180px 0 150px 0;">
+            <div class="container">
+              <div class="row justify-content-center justify-content-lg-start">
+                <div class="col-12 col-lg-8 col-xl-7 pb-awe-40">
+                  <h1 class="fz-48 text-white fw-bold">
+                    <span class="fw-black text-secondary-light"><?php echo $slide['titulo-slide-destaque']; ?></span> <?php echo $slide['titulo-slide']; ?>
+                  </h1>
+                </div>
+                <div class="col-12 col-lg-8">
+                  <p class="fz-20 text-white fw-regular">
+                    <?php echo $slide['descricao-slide']; ?>
+                  </p>
+                </div>
+                <div class="col-12 col-sm-10 col-6 d-flex justify-content-center justify-content-lg-start gap-4 pt-awe-56 pt-lg-awe-64 flex-wrap">
+                  <a href="#sobre"
+                    class="btn btn-secondary-dark text-uppercase text-white ff-catamaran">
+                    <span class="me-2">
+                      <img src="/dist/img/svg/btn-arrows.svg" alt="">
+                    </span>
+                    Conheça nossa história
+                  </a>
+                  <a href="#piscinas" class="btn btn-outline-white text-uppercase ff-catamaran">
+                    Ver piscinas
+                  </a>
+                </div>
+                <div class="col-12 d-flex gap-3 justify-content-end pt-awe-32 pt-md-0">
+                  <div class="swiper-main-prev"></div>
+                  <div class="swiper-main-next"></div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
+      <?php }}?>
       </div>
     </div>
   </main>
@@ -77,12 +108,8 @@
         <!-- Additional required wrapper -->
         <div class="swiper-wrapper ">
           <!-- Slides -->
-          <?php
-                    
-                        $equipe = get_field('Piscinas');
-                        if(isset($equipe)){
-                            
-                            foreach ($equipe as $membro) { ?>
+          <?php $equipe = get_field('Piscinas');
+            if(isset($equipe)){ foreach ($equipe as $membro) { ?>
           <div class="swiper-slide">
             <img class="img-fluid w-100" src="<?php echo $membro['imagem'] ?>" alt="">
             <div class="pt-3">
@@ -95,9 +122,7 @@
             </div>
           </div>
 
-          <?php }
-                        }
-                    ?>
+          <?php }}?>
         </div>
       </div>
     </div>
