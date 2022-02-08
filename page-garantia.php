@@ -37,7 +37,7 @@
           </p>
         </div>
 
-        <a href="<?php echo get_field('termo_de_garantia');?>" class="btn border-primary text-primary text-uppercase fz-14 fw-bold ff-catamaran py-2 mt-2">
+        <a href="<?php echo get_field('termo_de_garantia');?>" target="blank__" class="btn border-primary text-primary text-uppercase fz-14 fw-bold ff-catamaran py-2 mt-2">
           <img src="<?php echo get_template_directory_uri();?>/dist/img/svg/pdf-icon-small.svg" class="me-2" alt="">
           Baixe O TERMO DE GARANTIA
         </a>
