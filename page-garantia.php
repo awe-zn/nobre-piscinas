@@ -8,7 +8,7 @@
   background-size: cover;
 }
 </style>
-<section id="selo">
+<section id="selo" class="mt-awe-96">
     <div class="container pt-awe-18">
       <div class="row justify-content-center">
         <div class="col-4 col-md-2 d-flex justify-content-end">
