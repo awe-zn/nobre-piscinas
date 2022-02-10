@@ -26,7 +26,7 @@
   }
 </style>
 
-  <main id="main-home" class="mt-awe-80">
+  <main id="main-home" class="">
     <div class="swiper-main p-0 position-relative overflow-hidden">
       <div class="swiper-wrapper">
       <?php $slides = get_field('slides_main'); 
@@ -203,15 +203,14 @@
     <div class="container-lg">
       <div class="row justify-content-center">
         <div class="col-md-10 col-lg-6">
-          
           <div class="rounded form-inicio bg-primary-dark-1 py-awe-64 px-awe-32 p-lg-awe-64 ff-catamaran mb-awe-25 mb-lg-0">
-          <h3 class="text-center fz-32 ff-catamaran fw-bold text-white">
+            <h3 class="text-center fz-32 ff-catamaran fw-bold text-white">
               Solicitar orçamento
             </h3>
             <p class="text-center fz-16 ff-catamaran text-white m-0">
               Preencha os campos abaixo para continuarmos avançando com no seu orçamento.
             </p>
-            <?php echo get_field('form')?> 
+            <?php echo get_field('form')?>
             <!-- <form action="" class="">
             
             <div class="mb-awe-25 mt-awe-64">
@@ -234,8 +233,82 @@
               Solicitar atendimento
             </button>
           </form> -->
+
+          
+          <!-- <form id="form-garantia" action="" class="pt-awe-40 pb-awe-64 px-3">
+            <div id="content-step-1" class="row">
+              <div class="col-12 col-md-7 mt-awe-16">
+                <label for="nome-garantia" class="form-label">Nome:*</label>
+                [text* text-289 id:nome-garantia class:form-control placeholder "Digite seu nome"]
+              </div>
+              <div class="col-12 col-md-5 mt-awe-16">
+                <label for="cpf-garantia" class="form-label fw-bold">CPF:*</label>
+                [text* text-289 id:cpf-garantia class:form-control placeholder "___.___.___-__"]
+              </div>
+              <div class="col-12 col-md-6 mt-awe-16">
+                <label for="cep-garantia" class="form-label">CEP:*</label>
+                [text* text-289 id:cep-garantia class:form-control placeholder "_____-___"]
+              </div>
+              <div class="col-12 mt-awe-16">
+                <label for="endereco-garantia" class="form-label">Endereço:</label>
+                [text* text-289 id:endereco-garantia class:form-control placeholder "Digite o nome do seu logradouro, número e bairro"]
+              </div>
+              <div class="col-12 col-md-8 mt-awe-16">
+                <label for="cidade-garantia" class="form-label">Cidade:*</label>
+                [text* text-289 id:cidade-garantia class:form-control placeholder "Digite o nome da sua cidade"]
+              </div>
+              <div class="col-12 col-md-4 mt-awe-16">
+                <label for="estado-garantia" class="form-label">Estado:*</label>
+                [text* text-289 id:estado-garantia class:form-control placeholder "UF"]
+              </div>
+              <div class="col-12 col-md-4 mt-awe-16">
+                <label for="telefone-garantia" class="form-label">Telefone:</label>
+                [tel* tel-698 id:telefone-garantia class:form-control placeholder "(__) ______-_______"]
+              </div>
+              <div class="col-12 col-md-4 mt-awe-16">
+                <label for="celular-garantia" class="form-label">Celular:</label>
+               [tel* tel-698 id:celular-garantia class:form-control placeholder "(__) ______-_______"]
+              </div>
+              <div class="col-12 col-md-7 mt-awe-16">
+                <label for="email-garantia" class="form-label">Email:*</label>
+                [text* text-289 id:email-garantia class:form-control placeholder "Digite seu e-mail de contato"]
+              </div>
+              <div class="col-12 d-flex justify-content-end justify-content-sm-between align-items-end flex-wrap gap-2 pb-5 pt-awe-64">
+                <div class="fz-12 ff-catamaran text-light">*itens obrigatórios</div>
+                <div>
+                  <button  onclick="nextStep()" type="button" class="text-primary-light-1 fz-14 fw-bold ff-catamaran btn border-primary-light-1 py-2 d-flex align-items-center">
+                  <img id="nextButton" src="" class="me-2" alt="">Próxima Etapa</button>
+                </div>
+              </div>
+            </div>
+
+            <div id="content-step-2" class="row d-none">
+              <div class="col-12 col-md-4 mt-awe-16">
+                <label for="data-compra-garantia" class="form-label fw-bold">Data da Compra *</label>
+                [date* date-734 id:data-compra-garantia class:form-control]
+              </div>
+              <div class="col-12 col-md-4 mt-awe-16">
+                <label for="data-instalacao-garantia" class="form-label fw-bold">Data da Instalação *</label>
+                [date* date-734 id:data-instalacao-garantia class:form-control]
+              </div>
+              <div class="col-12 col-md-8 mt-awe-32">
+                <label for="numero-serie-garantia" class="form-label fw-bold">Número de Série *</label>
+                [number number-572 id:numero-serie-garantia class:form-control placeholder "Digite o número de série da sua piscina"]
+              </div>
+              <div class="col-12 mt-awe-32">
+                <label for="tecnico-garantia" class="form-label fw-bold">Técnico responsável:</label>
+                [text* text-289 id:tecnico-garantia class:form-control placeholder "Digite o nome do técnico responsável pela instalação"]
+              </div>
+              <div class="col-12 d-flex justify-content-end justify-content-sm-between align-items-end flex-wrap gap-2 pb-5 pt-awe-64">
+                <div class="fz-12 ff-catamaran text-light">*itens obrigatórios</div>
+                <div class="d-flex gap-awe-16">
+                  <button onclick="prevStep()" type="button" class="text-primary-light-1 fz-14 fw-bold ff-catamaran btn border-primary-light-1 py-2">Voltar</button>
+                [submit id:enviar-garantia class:text-white class:fz-14 class:fw-bold class:ff-catamaran class:btn class:btn-primary-light-1 class:py-2 "Finalizar"]
+                </div>
+              </div>
+            </div>
+          </form> -->
           </div>
-           
         </div>
       </div>
     </div>
