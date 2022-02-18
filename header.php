@@ -15,16 +15,14 @@
     rel="stylesheet">
 
   <!--Css-->
-  <link
-  rel="stylesheet"
-  href="https://unpkg.com/swiper@7/swiper-bundle.min.css"
-/>
-<link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css?ver=<?php echo time(); ?>">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style.css?ver=<?php echo time(); ?>">
+  <link rel="stylesheet" href="<?php echo get_template_directory_uri();?>/style-update.css">
 </head>
 
 <body>
 
-  <header class="bg-primary-dark-1">
+  <header class="fixed-top">
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
         <a class="navbar-brand" href="<?php echo home_url('/');?>">

@@ -1,9 +1,14 @@
-#main-home {
-    background: url(/dist/img/img-main.jpg) no-repeat right top;
-    background-size: cover;
-  }
+
 #orcamento form p label {
     color: #b2c6ff !important;
     font-size: 1rem !important;
     width: 100% !important;
+}
+
+header {
+    background: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
+}
+
+button:disabled {
+    filter: grayscale(1);
 }
